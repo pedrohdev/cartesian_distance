@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+        <link rel="stylesheet" href="./node_modules/bulma/css/style.css">
+        <title>Distância entre dois pontos no plano cartesiano</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <form id='values'>
+                <div class="columns">
+
+                    <div class="column">
+    
+                        <input class="input is-info" autofocus required id="xA" type="number" placeholder="Digite o X do primeiro par ordenado">
+    
+                    </div>
+    
+                    <div class="column">
+    
+                        <input class="input is-info" autofocus required id="yA" type="number" placeholder="Digite o Y do primeiro par ordenado">
+                        
+                    </div>
+    
+                </div>
+    
+                <div class="columns">
+    
+                    <div class="column">
+    
+                        <input class="input is-warning" autofocus required id="xB" type="number" placeholder="Digite o X do segundo par ordenado">
+    
+                    </div>
+    
+                    <div class="column">
+    
+                        <input class="input is-warning" autofocus required id="yB" type="number" placeholder="Digite o Y do segundo par ordenado">
+    
+                    </div>
+    
+                </div>
+    
+                <div class="columns">
+    
+                    <div align='center' class="column">
+    
+                        <button id='button' type="button" class="button is-danger">Calcular</button>
+    
+                    </div>
+    
+                </div>
+                <div class="columns">
+    
+                    <div align='center' id='result' class="column">
+    
+                    </div>
+    
+                </div>
+            </form>
+            
+        </div>
+        
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    Desenvolvido por <a href="https://github.com/PedroHdev">Henrique Vieira</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src='./js/Math.js'></script>
+
+    </body>
+</html>
